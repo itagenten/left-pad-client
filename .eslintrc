@@ -1,0 +1,17 @@
+{
+  "extends": "eslint:recommended",
+  "ecmaFeatures": {
+    "modules": true
+  },
+  "env": {
+    "browser": true,
+    "node": true
+  },
+  "parser": "babel-eslint",
+  "rules": {
+    "eqeqeq": [2, "smart"],
+    "quotes": [2, "single"],
+    "strict": [2, "never"],
+    "semi": [2, "always"],
+  }
+}
